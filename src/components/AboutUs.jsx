@@ -13,8 +13,8 @@ export const AboutUs = () => {
                         <h1 className="lg:text-5xl text-xl text-white drop-shadow-xl rounded-box px-5 font-semibold w-fit">
                             About Us
                         </h1>
-                        <p className="text-white drop-shadow-xl rounded-box px-5 pb-5 lg:w-[50%] lg:text-xl">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum ut commodi iusto ad recusandae facere eos, vero porro, laudantium illum esse voluptate provident! Magnam repellat sequi sapiente, dignissimos in quasi.
+                        <p className="text-white drop-shadow-xl rounded-box px-5 pb-5 lg:w-[75%] lg:text-xl">
+                            Di Savier Jasmine Tour & Travel kami memahami bahwa setiap perjalanan adalah cerita unik yang membentuk bagian berharga dari kehidupan Anda. Sebagai penyedia layanan Travel dan Haji, kami bangga menjadi teman setia yang akan mengantarkan Anda meraih impian perjalanan Anda. Dengan kombinasi antara inovasi, dedikasi, dan nilai-nilai keberagaman, kami berkomitmen untuk memberikan pelayanan yang memenuhi segala kebutuhan Travel Anda.
                         </p>
                     </div>
                 </div>

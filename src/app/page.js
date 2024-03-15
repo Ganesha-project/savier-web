@@ -3,6 +3,8 @@ import { AnimateOnce } from "@/components/AnimateOnce";
 import { BannerText } from "@/components/BannerText";
 import { ContactUs } from "@/components/ContactUs";
 import { Location } from "@/components/Location";
+import { Packages } from "@/components/Packages";
+import { PackagesTravel } from "@/components/PackagesTravel";
 import { Products } from "@/components/Products";
 import { SlideshowBg } from "@/components/SlideshowBg";
 import { VisionMission } from "@/components/VisionMision";
@@ -23,6 +25,12 @@ export default function Home() {
       </AnimateOnce>
       <AnimateOnce animation={'animate__zoomInUp'}>
         <VisionMission />
+      </AnimateOnce>
+      <AnimateOnce animation={'animate__zoomInUp'}>
+        <Packages />
+      </AnimateOnce>
+      <AnimateOnce animation={'animate__zoomInUp'}>
+        <PackagesTravel />
       </AnimateOnce>
       <AnimateOnce animation={'animate__zoomInUp'}>
         <Products />

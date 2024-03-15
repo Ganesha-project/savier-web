@@ -1,7 +1,7 @@
 'use client'
 import { useState } from "react";
-import { AiOutlineRadarChart } from "react-icons/ai";
-import { SlTarget } from "react-icons/sl";
+import { IoPaperPlane } from "react-icons/io5";
+import { FaPersonRunning } from "react-icons/fa6";
 
 export const VisionMission = () => {
     const [toggle, setToggle] = useState(1);
@@ -15,7 +15,7 @@ export const VisionMission = () => {
             <section className="lg:mx-32 mx-5 mt-20">
                 <div className="relative w-[100$]">
                     <img
-                        src="https://images.unsplash.com/photo-1545389336-cf090694435e?q=80&w=2864&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        src="https://images.unsplash.com/photo-1606768666853-403c90a981ad?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                         alt=""
                         className="w-full h-[80lvh] rounded-[30px] object-cover brightness-75"
                     />
@@ -25,7 +25,7 @@ export const VisionMission = () => {
                                 onClick={() => updateToggle(1)}
                                 className={toggle === 1 ? 'bg-[#ffffffd2] backdrop-blur-xl p-3 w-full md:w-fit lg:w-fit h-fit rounded-box scale-105 ml-1 transform duration-500' : 'bg-[#0000004d] backdrop-blur-xl p-3 h-fit rounded-box text-white text-opacity-50 lg:w-fit animate-pulse'}>
                                 <div className="flex items-center gap-2">
-                                    <AiOutlineRadarChart size={25} />
+                                    <IoPaperPlane size={25} />
                                     <a className="lg:text-3xl text-xl font-semibold">
                                         Vision
                                     </a>
@@ -35,7 +35,7 @@ export const VisionMission = () => {
                                 onClick={() => updateToggle(2)}
                                 className={toggle === 2 ? 'bg-[#ffffffd2] backdrop-blur-xl p-3 w-full md:w-fit lg:w-fit h-fit rounded-box scale-105 mr-1 transform duration-500' : 'bg-[#0000004d] backdrop-blur-xl p-3 h-fit rounded-box text-white text-opacity-50 lg:w-fit animate-pulse'}>
                                 <div className="flex items-center gap-2">
-                                    <SlTarget size={25} />
+                                    <FaPersonRunning size={25} />
                                     <a className="lg:text-3xl text-xl font-semibold">
                                         Mission
                                     </a>
@@ -44,16 +44,24 @@ export const VisionMission = () => {
                         </div>
                         <div className={toggle === 1 ? "visible inline-block" : "hidden"} >
                             <div className="text-white">
-                                <p className="lg:text-xl lg:text-justify">
-                                    Becoming an innovative and inspiring Pioneer in the Maritime Export Industry, and contributing positively to the Economy and the Environment by providing high-quality and sustainable products.
+                                <p className="lg:text-xl drop-shadow-xl lg:text-justify">
+                                    Kami berkomitmen untuk menjadi Mitra Perjalanan yang unggul, terpercaya, dan dapat membantu Klien mewujudkan mimpi mereka untuk menjelajahi berbagai macam Destinasi di seluruh Dunia hingga melakukan Perjalanan Suci Haji, dengan memberikan pelayanan yang optimal dan pengalaman yang tak terlupakan.
                                 </p>
                             </div>
                         </div>
                         <div className={toggle === 2 ? "visible inline-block" : "hidden"} >
                             <div className="text-white">
-                                <p className="lg:text-xl lg:text-justify">
-                                    We are committed to providing sustainable and environmentally-friendly services, ensuring that Our Business activities do not harm Marine Ecosystems and the surrounding environment. Additionally, We aim to build strong Partnership relationships with Customers, Suppliers, and other Stakeholders, fostering mutual growth and benefits.
-                                </p>
+                                <div className="lg:text-xl drop-shadow-xl lg:text-justify">
+                                    <p>1. Layanan perjalanan berkualitas dengan standar keamanan terbaik, memberikan pengalaman luar biasa.</p>
+
+                                    <p>2. Menyelenggarakan perjalanan Haji dengan keselamatan dan kenyamanan utama, memastikan ibadah dilakukan dengan khidmat.</p>
+
+                                    <p>3. Mendukung pertumbuhan ekonomi lokal dan memberikan peluang pekerjaan serta pendidikan.</p>
+
+                                    <p>4. Memberikan edukasi tentang tanggung jawab selama perjalanan dan peduli lingkungan.</p>
+
+                                    <p>5. Terus berinovasi dalam teknologi dan layanan perjalanan untuk pengalaman yang lebih baik.</p>
+                                </div>
                             </div>
                         </div>
                     </div>

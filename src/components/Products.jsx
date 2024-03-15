@@ -2,22 +2,22 @@ export const Products = () => {
     const data = [
         {
             name: 'Veligandu Island Resort',
-            alt: 'jelita_asset',
+            alt: 'savier-jasmine-asset',
             imgUrl: 'https://images.unsplash.com/photo-1512100356356-de1b84283e18?q=80&w=2507&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
         },
         {
-            name: 'Province of Como Itally',
-            alt: 'jelita_asset',
-            imgUrl: 'https://images.unsplash.com/photo-1583855282680-6dbdc69b0932?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+            name: 'Al Masjid Al Nabawi',
+            alt: 'Al Masjid Al Nabawi (Nabawi Mosque)',
+            imgUrl: 'https://images.unsplash.com/photo-1584186028062-637e3e77318d?q=80&w=3024&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
         },
         {
-            name: ' Cappadocia Turkey',
-            alt: 'jelita_asset',
+            name: 'Cappadocia Turkey',
+            alt: 'savier-jasmine-asset',
             imgUrl: 'https://images.unsplash.com/photo-1568322503878-6c2762c21724?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
         },
         {
             name: 'Tulum Mexico',
-            alt: 'jelita_asset',
+            alt: 'savier-jasmine-asset',
             imgUrl: 'https://images.unsplash.com/photo-1520483601560-389dff434fdf?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
         }
     ]
