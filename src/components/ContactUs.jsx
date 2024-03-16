@@ -7,7 +7,7 @@ export const ContactUs = () => {
             <div id="contact" />
             <section className="lg:mx-32 mx-5 mt-20">
                 <div className="flex gap-5">
-                    <div className="lg:w-full w-full h-[90lvh] relative">
+                    <div className="lg:w-full w-full lg:h-[50lvh] h-[90lvh] relative">
                         <img
                             className="object-cover w-full h-full rounded-[30px] brightness-75"
                             src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?q=80&w=2835&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
