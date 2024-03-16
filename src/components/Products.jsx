@@ -69,7 +69,7 @@ export const Products = () => {
                                     </a>
                                 </div>
                             </div>
-                            <div className="bg-base-200 rounded-box p-3">
+                            <div className="flex flex-grow items-center justify-center h-[15lvh] bg-base-200 rounded-box p-3">
                                 <h1 className="text-center text-xl font-semibold">
                                     {el.name}
                                 </h1>

@@ -9,7 +9,7 @@ export const PackagesTravel = () => {
                 </div>
 
                 <div className="carousel flex gap-5 rounded-[30px]">
-                    <div className="relative lg:w-[41lvw] lg:h-[75lvh] h-[50lvh] w-[75lvw] group carousel-item">
+                    <div className="relative lg:w-[41lvw] lg:h-[75lvh] h-[85lvh] w-[75lvw] group carousel-item">
                         <img
                             src="https://images.unsplash.com/photo-1512100254544-47340ba56b5d?q=80&w=2456&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                             alt=""
@@ -39,7 +39,7 @@ export const PackagesTravel = () => {
                         </div>
                     </div>
 
-                    <div className="relative lg:w-[41lvw] lg:h-[75lvh] h-[50lvh] w-[75lvw] group carousel-item">
+                    <div className="relative lg:w-[41lvw] lg:h-[75lvh] h-[85lvh] w-[75lvw] group carousel-item">
                         <img
                             src="https://media.istockphoto.com/id/945297486/id/foto/bus-wisata-putih-berturut-turut.jpg?s=612x612&w=0&k=20&c=ORNJkQz-lEBngwnsEHEM0fBuC8kEQ8kTzNXvhC6dC-8="
                             alt=""

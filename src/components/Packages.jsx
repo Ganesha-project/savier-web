@@ -9,7 +9,7 @@ export const Packages = () => {
                 </div>
 
                 <div className="carousel flex gap-5 rounded-[30px]">
-                    <div className="relative lg:w-[41lvw] lg:h-[75lvh] h-[50lvh] w-[75lvw] group carousel-item">
+                    <div className="relative lg:w-[41lvw] lg:h-[75lvh] h-[85lvh] w-[75lvw] group carousel-item">
                         <img
                             src="https://images.unsplash.com/photo-1551254740-8e0eca21c129?q=80&w=2835&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                             alt=""
@@ -38,7 +38,7 @@ export const Packages = () => {
                         </div>
                     </div>
 
-                    <div className="relative lg:w-[41lvw] lg:h-[75lvh] h-[50lvh] w-[75lvw] group carousel-item">
+                    <div className="relative lg:w-[41lvw] lg:h-[75lvh] h-[85lvh] w-[75lvw] group carousel-item">
                         <img
                             src="https://images.unsplash.com/photo-1633546707050-88e2b545831c?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dW1yYWh8ZW58MHx8MHx8fDA%3D"
                             alt=""
