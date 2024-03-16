@@ -3,6 +3,7 @@ import Image from "next/image"
 export const Packages = () => {
     return (
         <>
+        <div id="products"/>
             <section className="lg:mx-32 mx-5 mt-20">
                 <div className="mb-5">
                     <h1 className="lg:text-6xl text-3xl text-center font-bold tracking-wider">
