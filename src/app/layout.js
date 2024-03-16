@@ -8,7 +8,7 @@ import { FloatingButton } from "@/components/FloatingBtn";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Jasmine Traver",
+  title: "Jasmine Travel",
   description: "Layanan Haji Umroh dan Travel Terlengkap!",
 };
 
