@@ -1,4 +1,5 @@
 'use client'
+import Image from "next/image";
 import { useEffect, useState } from "react";
 
 export const SlideshowBg = () => {
@@ -66,7 +67,9 @@ export const SlideshowBg = () => {
                                 className="slide "
                             // className={`slide ${isLoaded && i === index ? 'fade-in' : ''}`}
                             >
-                                <img
+                                <Image
+                                    width={1000}
+                                    height={1000}
                                     className="w-screen h-screen object-cover brightness-50"
                                     src={el.imgUrl}
                                     alt={el.alt}

@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export const BannerText = () => {
     return (
         <div className="absolute inset-5 lg:inset-20 flex items-center">
@@ -13,8 +15,10 @@ export const BannerText = () => {
                 </div>
                 <div className="lg:w-[50%] flex flex-col lg:gap-3">
                     <div className="bg-[#ffffff43] backdrop-blur-lg p-3 hidden lg:inline-block rounded-box">
-                        <img
+                        <Image
                             loading="lazy"
+                            width={1000}
+                            height={1000}
                             className="lg:h-[40lvh] w-full object-cover rounded-lg"
                             src={'https://images.unsplash.com/photo-1579305796288-c534f6cf17ab?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'}
                             alt="travel-destination-banner"

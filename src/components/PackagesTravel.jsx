@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 export const PackagesTravel = () => {
     return (
         <>
@@ -8,9 +10,11 @@ export const PackagesTravel = () => {
                     </h1>
                 </div>
 
-                <div className="carousel flex gap-5 rounded-[30px]">
-                    <div className="relative lg:w-[41lvw] lg:h-[75lvh] h-[85lvh] w-[75lvw] group carousel-item">
-                        <img
+                <div className="carousel flex gap-5 lg:rounded-[30px]">
+                    <div className="relative lg:w-[41lvw] lg:h-[75lvh] h-[80lvh] w-[80lvw] group carousel-item">
+                        <Image
+                            width={1000}
+                            height={1000}
                             src="https://images.unsplash.com/photo-1512100254544-47340ba56b5d?q=80&w=2456&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                             alt=""
                             className="rounded-[30px] w-full object-cover h-auto brightness-[.80] duration-200 group-hover:brightness-100"
@@ -39,8 +43,10 @@ export const PackagesTravel = () => {
                         </div>
                     </div>
 
-                    <div className="relative lg:w-[41lvw] lg:h-[75lvh] h-[85lvh] w-[75lvw] group carousel-item">
-                        <img
+                    <div className="relative lg:w-[41lvw] lg:h-[75lvh] h-[80lvh] w-[80lvw] group carousel-item">
+                        <Image
+                            width={1000}
+                            height={1000}
                             src="https://media.istockphoto.com/id/945297486/id/foto/bus-wisata-putih-berturut-turut.jpg?s=612x612&w=0&k=20&c=ORNJkQz-lEBngwnsEHEM0fBuC8kEQ8kTzNXvhC6dC-8="
                             alt=""
                             className="rounded-[30px] w-full object-cover h-full brightness-[.85] duration-200 group-hover:brightness-100"

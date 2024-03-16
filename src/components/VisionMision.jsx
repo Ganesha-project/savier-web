@@ -2,6 +2,7 @@
 import { useState } from "react";
 import { IoPaperPlane } from "react-icons/io5";
 import { FaPersonRunning } from "react-icons/fa6";
+import Image from "next/image";
 
 export const VisionMission = () => {
     const [toggle, setToggle] = useState(1);
@@ -14,7 +15,9 @@ export const VisionMission = () => {
             <div id="vision-mission" />
             <section className="lg:mx-32 mx-5 mt-20">
                 <div className="relative w-[100$]">
-                    <img
+                    <Image
+                        width={1000}
+                        height={1000}
                         src="https://images.unsplash.com/photo-1606768666853-403c90a981ad?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                         alt=""
                         className="w-full h-[80lvh] rounded-[30px] object-cover brightness-75"

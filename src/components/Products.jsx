@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 export const Products = () => {
     const data = [
         {
@@ -34,8 +36,10 @@ export const Products = () => {
                     <div
                         className="relative"
                     >
-                        <img
+                        <Image
                             loading="lazy"
+                            width={1000}
+                            height={1000}
                             className="lg:h-[56lvh] w-full object-cover rounded-box"
                             src={'https://images.unsplash.com/photo-1520485292858-60fa55883e1e?q=80&w=2874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'}
                             alt="seaweed-jmaindonesia"
@@ -51,13 +55,15 @@ export const Products = () => {
                     </div>
                 </div>
 
-                <div className="flex carousel lg:flex-row gap-5 mt-5 rounded-[30px]">
+                <div className="flex carousel lg:flex-row gap-5 mt-5 lg:rounded-[30px]">
                     {data.map(el => (
                         <div
                             key={el.name}
                             className="lg:w-[25%] w-[70%] carousel-item h-fit border border-gray-400 p-3 rounded-[30px] flex flex-col gap-3">
                             <div className="relative">
-                                <img
+                                <Image
+                                    width={1000}
+                                    height={1000}
                                     className="w-full h-[40lvh] object-cover rounded-box"
                                     src={el.imgUrl}
                                     alt={el.alt} />
