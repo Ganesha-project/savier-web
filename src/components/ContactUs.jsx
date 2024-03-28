@@ -1,7 +1,10 @@
+import Link from "next/link"
 import { AiOutlineWhatsApp } from "react-icons/ai"
 import { GrFacebookOption, GrInstagram, GrMail } from "react-icons/gr"
 
 export const ContactUs = () => {
+    const WaLink = "https://api.whatsapp.com/send?phone=625215402378&text=Hello%20Savier%20Jasmine"
+
     return (
         <>
             <div id="contact" />
@@ -17,7 +20,9 @@ export const ContactUs = () => {
                                 Contact Us!
                             </h1>
                             <div className="lg:flex lg:flex-row flex-col grid grid-cols-1 justify-between gap-2 px-5 mb-5 lg:w-fit w-full h-auto">
-                                <div className="bg-[#ffffffad] backdrop-blur-xl rounded-box p-5">
+                                <Link
+                                    href={WaLink}
+                                    className="bg-[#ffffffad] backdrop-blur-xl rounded-box p-5">
                                     <div className="lg:text-3xl flex items-center gap-2">
                                         <AiOutlineWhatsApp size={20} />
                                         <p>
@@ -26,10 +31,10 @@ export const ContactUs = () => {
                                         </p>
                                     </div>
                                     <p>
-                                        0123 456 789
+                                        0852 1540 2378
                                     </p>
-                                </div>
-                                <a
+                                </Link>
+                                <Link
                                     href="mailto:saktiviekontama.p@gmail.com"
                                     className="  bg-[#ffffffad] text-gray-700 backdrop-blur-xl rounded-box p-5">
                                     <div className="lg:text-3xl flex items-center gap-2">
@@ -42,8 +47,8 @@ export const ContactUs = () => {
                                     <p>
                                         saktiviekontama.p@gmail.com
                                     </p>
-                                </a>
-                                <a
+                                </Link>
+                                <Link
                                     href="https://www.instagram.com/savierjasmine88/"
                                     className="  bg-[#ffffffad] text-gray-700 backdrop-blur-xl rounded-box p-5">
                                     <div className="lg:text-3xl flex items-center gap-2">
@@ -56,7 +61,7 @@ export const ContactUs = () => {
                                     <p>
                                         @savierjasmine88
                                     </p>
-                                </a>
+                                </Link>
                                 <div className="  bg-[#ffffffad] text-gray-700 backdrop-blur-xl rounded-box p-5">
                                     <div className="lg:text-3xl flex items-center gap-2">
                                         <GrFacebookOption size={20} />
