@@ -1,6 +1,9 @@
 import Image from "next/image"
+import Link from "next/link"
 
 export const Footer = () => {
+    const WaLink = "https://api.whatsapp.com/send?phone=6285215402378&text=Hello%20Savier%20Jasmine"
+
     return (
         <>
             <footer className="footer p-10 bg-base-200 text-base-content mt-20 rounded-tl-[30px] rounded-tr-[30px]">
@@ -28,34 +31,39 @@ export const Footer = () => {
                     <h6 className="footer-title">Navigation</h6>
                     <ul>
                         <li>
-                            <a
+                            <Link
                                 href="#about-us"
                                 className="link link-hover">
-                                About Us</a>
+                                About Us
+                            </Link>
                         </li>
                         <li>
-                            <a
+                            <Link
                                 href="#vision-mission"
                                 className="link link-hover">
-                                Vision & Mission</a>
+                                Vision & Mission
+                            </Link>
                         </li>
                         <li>
-                            <a
+                            <Link
                                 href="#products"
                                 className="link link-hover">
-                                Products</a>
+                                Products
+                            </Link>
                         </li>
                         <li>
-                            <a
+                            <Link
                                 href="#contact"
                                 className="link link-hover">
-                                Contact</a>
+                                Contact
+                            </Link>
                         </li>
                         <li>
-                            <a
+                            <Link
                                 href="#location"
                                 className="link link-hover">
-                                Location</a>
+                                Location
+                            </Link>
                         </li>
                     </ul>
                 </nav>
@@ -63,28 +71,32 @@ export const Footer = () => {
                     <h6 className="footer-title">contact</h6>
                     <ul>
                         <li>
-                            <a
-                                href=""
+                            <Link
+                                href={WaLink}
                                 className="link link-hover">
-                                WhatsApp</a>
+                                WhatsApp
+                            </Link>
                         </li>
                         <li>
-                            <a
+                            <Link
                                 href="https://www.instagram.com/savierjasmine88/"
                                 className="link link-hover">
-                                Instagram</a>
+                                Instagram
+                            </Link>
                         </li>
                         <li>
-                            <a
+                            <Link
                                 href=""
                                 className="link link-hover">
-                                Facebook</a>
+                                Facebook
+                            </Link>
                         </li>
                         <li>
-                            <a
+                            <Link
                                 href="mailto:saktiviekontama.p@gmail.com"
                                 className="link link-hover">
-                                Email</a>
+                                Email
+                            </Link>
                         </li>
                     </ul>
                 </nav>

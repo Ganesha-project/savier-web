@@ -1,6 +1,9 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export const BannerText = () => {
+    const WaLink = "https://api.whatsapp.com/send?phone=6285215402378&text=Hello%20Savier%20Jasmine"
+
     return (
         <div className="absolute inset-5 lg:inset-20 flex items-center">
             <div className="lg:mx-0 mx-5 flex lg:flex-row flex-col gap-5 lg:gap-20">
@@ -25,16 +28,16 @@ export const BannerText = () => {
                         />
                     </div>
                     <div className="flex gap-3">
-                        <a 
-                        href="#about-us"
-                        className="w-full bg-[#ffffff43] backdrop-blur-lg px-5 py-3 rounded-box text-center text-white font-bold lg:text-xl transition duration-500 hover:scale-105 hover:bg-[#ffffff65]">
+                        <a
+                            href="#about-us"
+                            className="w-full bg-[#ffffff43] backdrop-blur-lg px-5 py-3 rounded-box text-center text-white font-bold lg:text-xl transition duration-500 hover:scale-105 hover:bg-[#ffffff65]">
                             Explore Now
                         </a>
-                        <a 
-                        href=""
-                        className="w-full bg-[#ffffff43] backdrop-blur-lg px-5 py-3 rounded-box text-center text-white font-bold lg:text-xl transition duration-500 hover:scale-105 hover:bg-[#ffffff65]">
+                        <Link
+                            href={WaLink}
+                            className="w-full bg-[#ffffff43] backdrop-blur-lg px-5 py-3 rounded-box text-center text-white font-bold lg:text-xl transition duration-500 hover:scale-105 hover:bg-[#ffffff65]">
                             Contact Now!
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>

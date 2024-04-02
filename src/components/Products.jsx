@@ -1,6 +1,9 @@
 import Image from "next/image"
+import Link from "next/link"
 
 export const Products = () => {
+    const WaLink = "https://api.whatsapp.com/send?phone=6285215402378&text=Hello%20Savier%20Jasmine"
+
     const data = [
         {
             name: 'Veligandu Island Resort',
@@ -44,14 +47,14 @@ export const Products = () => {
                             src={'https://images.unsplash.com/photo-1520485292858-60fa55883e1e?q=80&w=2874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'}
                             alt="seaweed-jmaindonesia"
                         />
-                        <div
-                            href=""
+                        <Link
+                            href="https://maps.app.goo.gl/KAhkodLXVUMH89YKA"
                             className="absolute top-2 right-2 flex flex-row justify-end">
                             <div
                                 className="px-2 py-1 w-fit h-fit transition ease-in-out hover:scale-105 duration-500 hover:bg-[#ffffff64] bg-gray-800 lg:text-xl bg-opacity-25 text-white backdrop-blur-md self-end rounded-box">
                                 Mushroom Bay Beach, Indonesia
                             </div>
-                        </div>
+                        </Link>
                     </div>
                 </div>
 
@@ -68,11 +71,11 @@ export const Products = () => {
                                     src={el.imgUrl}
                                     alt={el.alt} />
                                 <div className="absolute top-2 right-2 flex flex-row justify-end">
-                                    <a
-                                        href=""
+                                    <Link
+                                        href={WaLink}
                                         className="px-2 py-1 w-fit h-fit transition ease-in-out hover:scale-105 duration-500 hover:bg-[#ffffff64] bg-gray-800 bg-opacity-25 text-white hover:text-blue-500 backdrop-blur-md self-end rounded-box">
                                         More Info
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                             <div className="flex flex-grow items-center justify-center h-[15lvh] bg-base-200 rounded-box p-3">
