@@ -5,6 +5,7 @@ import { useState, useEffect } from 'react';
 
 export const Navbar = () => {
     const [isScrolled, setIsScrolled] = useState(false);
+    const WaLink = "https://api.whatsapp.com/send?phone=6285215402378&text=Hello%20Savier%20Jasmine"
 
     useEffect(() => {
         const handleScroll = () => {
@@ -106,11 +107,11 @@ export const Navbar = () => {
                         </ul>
                     </div>
                     <div className="hidden lg:inline-block">
-                        <a
-                            href=''
+                        <Link
+                            href={WaLink}
                             className="lg:px-3 lg:py-3 px-2 py-2 bg-[#ffffff43] rounded-xl backdrop-blur-lg mr-1 hover:bg-white duration-500 hover:text-black">
                             Chat Us!
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </nav>
